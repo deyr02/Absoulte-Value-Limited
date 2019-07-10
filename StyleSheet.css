@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(ocean-3605547.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-color:#464646;
+}
+
+
+
+
+.centerDiv{
+	width: 40%;
+	max-width:550px;
+	height:auto;
+	margin:0 auto;
+	position:fixed;
+	top:  20%;
+	left: 35%;
+	background-color:#000;
+	opacity:0.8;
+	padding: 0px;
+	border-radius:3px;
+	
+	
+}
+
+
+.headerDiv{
+	width:100%;
+	background-color:#400040;
+	float:left;
+	
+}
+
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: calc(9px + .6vw);
+	font-weight:bold;
+	text-align: center;
+	color:#FF0;
+	
+}
+
+#form {
+	margin-left:10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	border: none;
+    padding: 0px;
+    text-align:center;
+	height:auto;
+ 
+}
+label {
+    font-family:"Times New Roman", Times, serif;
+    font-size: calc(5px + .45vw);
+	
+	font-weight:bolder;
+    color:#CCC;
+    height: 10%;
+    width: 40%;
+    margin-top: 3%;
+    text-align:left;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+input {
+    height: 10%;
+    width: 50%;
+	min-width: 80px;
+    border: 1px solid #000;
+    margin-top: 3%;
+    float: left;
+	font-size: calc(5px + .45vw);
+}
+
+button {
+	height: 5%;
+	width:30%;
+    float:none;
+	font-size: calc(6px + .5vw);
+	color:#000;
+	font-weight:bolder;
+	background:#39F;
+	border:none;
+	border-radius: 6px;
+}
+
+fieldset {
+	border:none;
+}
+ 
